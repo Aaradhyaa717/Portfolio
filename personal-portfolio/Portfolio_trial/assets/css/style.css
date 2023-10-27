@@ -1,0 +1,47 @@
+/* Reset some default styling */
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+  background-color: #25a4c7;
+}
+
+.page-container {
+  display: flex;
+}
+
+/* Sidebar styling */
+.sidebar-frame {
+  background-color: #0b3346;
+  color: #cc1fe6;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
+
+/* Content styling */
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.Data{
+  opacity: 0.5;
+}
